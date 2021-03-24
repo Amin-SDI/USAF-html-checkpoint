@@ -6,20 +6,24 @@
 
     <body>
         <header>
-            <h1 id="Site-Name">GMDB</h1>
+            <h2 id="Site-Name">GMDB</h2>
             <nav>
                 <a href="home.html">Home</a>
                 <a href="login.html">Login</a>
             </nav>
+             <form action="" class="searchBar"> <!--To Do: implement searching -->
+                <input type="text" placeholder="Search" name="search">
+                <button type="submit">Search</button>
+            </form>
         </header>
         <main>
+            <h2 id="Login-Header">Login</h2>
             <form action="./home.html">
-                <h1 id="Login-Header">Login</h1>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
-            <label for="email">Password:</label><br>
-            <input type="password" id="password" name="password"><br>
-            <input type="submit" id="login-submit" name="login-submit">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="email">Password:</label><br>
+                <input type="password" id="password" name="password"><br>
+                <button type="submit">Login</button>
             </form>
         </main>
     </body>

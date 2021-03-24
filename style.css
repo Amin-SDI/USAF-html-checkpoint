@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    display: grid;
+    flex-direction: row;
+    background-color: #343a40;
+    color:white;
+    align-items: center;
+    grid-template-columns: auto 1fr 1fr ;
+    height: 60px;
+}
+
+header nav {
+    justify-self: left;
+    padding: 20px;
+}
+
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-self: right;
+    margin-right:3%;
+    height: 50%;
+}
+
+.searchBar input {
+    border: 1px solid #343a40;
+    border-radius: 4px;
+}
+.searchBar button{
+    background-color: #343a40;
+    color: #ffc42c;
+    border: 1px solid #ffc42c;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+
+
+header a {
+    color:white;
+    text-decoration: none;
+    padding: 3px;
+}
+
+main {
+    display: grid;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+main form input {
+    min-width: 400px;
+    margin-bottom: 25px;
+
+}
+
+main form button {
+    background-color: #0b75fb;
+    color: white;
+    border: 1px solid #0b75fb;
+    border-radius: 3px;
+    font-size: xx-small;
+    min-height: 20px;
+}
+.MovieList{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 40px;
+    justify-content: center;
+}
+
+.MovieList img{
+    width: auto;
+    height: auto;
+}
